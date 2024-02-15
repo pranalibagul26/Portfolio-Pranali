@@ -1,0 +1,271 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 30;
+	
+}
+
+.logo{
+	font-size: 24px;
+	font-family: Sitka Display Semibold;
+	color: black;
+
+} 
+
+.mymenus{
+
+}
+
+.navBar{
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	width: 100%;
+	background-color:#8BAF84;
+	z-index: 5;
+
+}
+.nav-item{
+	font-size: 20px;
+	font-weight: bold;
+}
+.all-section{
+	position: relative;
+	width: 100%;
+	top: 30px;
+	color: black;
+	font-size: 25px;
+	font-family: Arial Black;
+	background-color: #DDD3E2;
+}
+.sections{
+	width: 100%;
+	height: 100vh;
+	padding: 100px;
+}
+.page-head{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+
+
+}
+/*home section*/
+.home-section{
+	background-image: url();
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+home-img{
+
+}
+}
+.mymenus{
+
+	color:black;
+}
+.mymenus:hover{
+	text-decoration: underline 2px solid royalblue;
+	color: royalblue;
+
+}
+.home-text{
+	margin-top: 100px;
+	margin-left: 50px;
+	font-size: 30px;
+	font-family: Sitka Display Semibold;
+}
+.name{
+	font-size: 45px;
+	font-family: Sitka Display Semibold;
+	font-weight: bolder;
+}
+.sd{
+	font-size: 30px;
+   color: #6C2087;
+   font-family: sans-serif;
+}
+
+.resume{
+	border: none;
+	border-radius: 20px;
+	width: 150px;
+
+}
+.rsm a{
+	height: 100px;
+	width: 200px;
+	margin: 10px 30px;
+	
+	
+	border: none;
+	border-color: none;
+	border-radius: 90px;
+	font-family: sans-serif;
+}
+.rsm:hover{
+	border: none;
+/*	background-color: royalblue;*/
+	color: black;
+/*	border:0px solid royalblue;*/
+	transform: scale(1.1);
+}
+/*about*/
+.carrer{
+/*	text-align: justify;*/
+	font-size: 22px;
+	margin-left: 500px;
+	text-indent: 20%;
+	font-family: sans-serif;
+	width: 900px ;
+	line-height: 40px;
+	font-weight: bolder;
+
+
+
+}
+.aboutsect{
+	margin-bottom: 60px;
+	height: 50px;
+	border: none;
+	margin-top: 10px;
+	height: 40px;
+}
+
+
+
+
+/*project section*/
+.project-img{
+	height: 200px;
+	width: 250px;
+}
+
+.carousel-inner{
+	font-size: 20px;
+	margin-top: 100px;
+	text-align: center;
+	box-shadow: 0px 0px 10px grey;
+	height: 300px;
+	width: 800px;
+	font-family: Sitka Heading Semibold;
+}
+
+.carousel-caption{
+	height: 25px;
+	color: black;
+	text-align: Bottom;
+}
+.img-head{
+	font-size: 35px;
+	font-weight: bolder;
+
+}
+
+/*skills section starts*/
+.skills-section{
+	height:580;
+	padding: 20px;
+}
+.rows td{
+	padding: 10px;
+}
+.tbl{
+	margin-top: 70px;
+}
+
+.skill-head{
+	font-size: 30px;
+	margin-bottom: 60px;
+ font-family: Arial Black;
+ color: black;
+ font-variant: small-caps;
+}
+.rows td div{
+	height: 200px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px black;
+}
+.rows td div:hover{
+	box-shadow: 0px 0px 10 px purple;
+}
+/*skills section end*/
+/*contact info*/
+.item{
+	font-size: 20px;
+	text-align: justify;
+	font-weight: bolder;
+}
+
+.container {
+  display: flex;
+  height: 90vh;
+  width: 50vw;
+  margin-bottom: 40px;
+}
+
+.form {
+  flex: 1;
+  background-color: #4a154b;
+  padding: 30px;
+  color: white;
+  font-size: 25px;
+  box-shadow: 0px 10px 10px black;
+  margin-bottom: 50px;
+  height: 520px;
+}
+.info {
+  flex: 1;
+  background-color: white;
+  padding: 40px;
+  color: #4a154b;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.btn {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  background-color: slategrey;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.contact-info{
+	align-content: center;
+	margin-bottom: 200px;
+	margin-left: 10px;
+    border: none;
+background-color: lightgrey;
+/*background-image: linear-gradient(to right, white, grey);*/
+padding: 30px;
+    height: 500px;
+box-shadow: 0px 10px 20px black	;
+
+}
+
+.item{
+	border-width: 5px 5px 5px 5px;
+}
+.col{
+text-align: center;
+}
+.container{
+	margin-right: 300px;
+
+}
+.text-center{
+	text-align: justify-all;
+
+}
+.row{
+	margin-right: 40px;
+}
